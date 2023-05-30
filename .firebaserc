@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "simoder-web-prod"
+  },
+  "targets": {
+    "simoder-web-prod": {
+      "hosting": {
+        "kimory": [
+          "kimory"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
+

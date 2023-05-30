@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "target": "kimory",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  
+  "web": {
+      "database_persistence_enabled": true
+  }
+}
