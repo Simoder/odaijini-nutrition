@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #015FC9;
+    --primary: #198754;
     --secondary: #0DD3F1;
     --light: #F6F7FC;
     --dark: #15233C;
@@ -269,7 +269,7 @@
 }
 
 .container.facts .facts-text {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/img7.webp) center right no-repeat;
+    background: linear-gradient(rgba(2, 155, 117, 0.89), rgba(2, 155, 117, 0.89)), url(../img/img7.webp) center right no-repeat;
     background-size: cover;
 }
 
@@ -295,7 +295,7 @@
 }
 
 .service-item .service-icon {
-    width: 90px;
+    width: 100px;
     height: 90px;
     display: flex;
     align-items: center;
@@ -303,8 +303,8 @@
 }
 
 .service-item .service-icon img {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 100%;
+    max-height: 70px;
 }
 
 .service-item a.btn {
@@ -317,10 +317,11 @@
     border-color: var(--primary);
 }
 
+.bg-primary{background-color:#198754 !important}
 
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(2, 155, 117, 0.89), rgba(2, 155, 117, 0.89)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 

@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "target": "kimory",
-    "public": "dist",
+    "target": "odaijini",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",

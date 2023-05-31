@@ -5,8 +5,8 @@
   "targets": {
     "simoder-web-prod": {
       "hosting": {
-        "kimory": [
-          "kimory"
+        "odaijini": [
+          "odaijini"
         ]
       }
     }
