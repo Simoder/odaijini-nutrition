@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "odaijini",
+    "target": "odablocked-dev",
     "public": "public",
     "ignore": [
       "firebase.json",
